@@ -1,0 +1,50 @@
+:root {
+    --primary: #d3afd9;
+    --primary-dark: #3D1BAC;
+    --primary-light: #AA92F8;
+    --primary-lighten: #E1E3F6;
+    --primary-bg: #e4d1e7;
+
+  }
+  
+  body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Segoe UI";
+    color: var(--primary);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-bg);
+  }
+  
+  .text-base{
+    font-size: 30px;
+    line-height: 24px;
+  }
+  .text-xs{
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .font-regular {
+    font-weight: 400;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .menu-link.router-link-active {
+    color: var(--primary);
+    background-color: var(--primary-bg);
+    font-family: "Roboto-Bold";
+  }
+  .menu-link.router-link-active svg {
+    fill: var(--primary);
+  } 
+  
