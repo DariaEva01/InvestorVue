@@ -10,9 +10,9 @@ export default defineConfig({
     Unocss({
       theme: {
         colors: {
-          primary: "#d3afd9",
-          primaryDark: "#b57ac6",
-          primaryLight: "#f2d6f0",
+          primary: "#cac5e9",
+          primaryDark: "#570267",
+          primaryDarkest: "#3c343d",
           primaryH: "#d992ed",
           primaryBg: "#e4d1e7",
         },

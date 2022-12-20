@@ -1,5 +1,5 @@
 :root {
-    --primary: #d3afd9;
+    --primary: #cac5e9;
     --primary-dark: #3D1BAC;
     --primary-light: #AA92F8;
     --primary-lighten: #E1E3F6;
@@ -17,8 +17,9 @@
     margin: 0;
     padding: 0;
     background-color: var(--primary-bg);
+    overflow-x: hidden;
   }
-  
+
   .text-base{
     font-size: 30px;
     line-height: 24px;
@@ -39,12 +40,152 @@
     font-weight: 700;
   }
   
-  .menu-link.router-link-active {
-    color: var(--primary);
-    background-color: var(--primary-bg);
-    font-family: "Roboto-Bold";
+
+
+  .backgroundImg {
+    width: 100%;
   }
-  .menu-link.router-link-active svg {
-    fill: var(--primary);
-  } 
+  .containerImg {
+    position: relative;
+    text-align: center;
+  }
+  button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .bannerText {
+    position: absolute;
+    top: 304px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 44pt;
+    text-align:center;
+  }
+  .buttonStart {
+    background-color: #6e0681;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    top: 450px;
+    width: 307px;
+    height: 50px;
+    z-index: 164;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.75);
+  }
+  .buttonStart button {
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+  }
+  .information div {
+    color: #3c343d;
+    font-size: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1185px;
+  }
+  .information div:first-child {
+    background-image: url(assets/img/backgroundText1.png);
+    background-repeat: no-repeat; 
+    margin-top: 84px;
+  }
+  .information div:first-child span {
+    color: #570267;
+    font-size: 60px;
+  }
+  .information p {
+    width: 85%;
+    left: 50%;
+  }
+  .information div:first-child p {
+    transform: translate(15%, -160%);
+  }
+  .information div h6 {
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+    width: 65%;
+    height: 119px;
+    color: #570267;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .information div img {
+    width: 100%;
+
+  }
+
+  .params p {
+    transform: translate(10%, 0%);
+  }
+  .params img {
+    width: 85%;
+    left: 50%;
+    transform: translate(10%, -80%);
+  }
+
+  .params ul {
+    list-style: none;
+    transform: translate(10%, 20%);
+}
+
+  .params ul li:before {
+      content:  "—";
+      position: relative;
+      left:     -5px;
+  }
   
+
+
+  .offerInformation {
+    background-color: #3c343d;
+    font-size: 36px;
+    color: #e4d1e7;
+  }
+  .offerInformation img {
+    width: 75%;
+    left: 50%;
+    transform: translate(20%, 0%);
+  }
+  .offerInformation p {
+    width: 75%;
+    transform: translate(25%, 0%);
+  }
+  .offerInformation h6 {
+    text-align: left;
+    margin-left: auto;
+    margin-right: 0;
+    width: 65%;
+    height: 119px;
+    color: #746875;
+    font-size: 48px;
+    font-weight: bold;
+    transform: translate(-25%, 0%);
+  }
+  .offerInformation ul {
+    list-style: none;
+    transform: translate(25%, 160%);
+}
+
+  .offerInformation ul li:before {
+      content:  "—";
+      position: relative;
+      left:     -5px;
+  }
+  
+  .buttonBottom {
+    position: absolute;
+    left: 277px;
+    top: 3874px;
+    width: 344px;
+    height: 77px;
+    z-index: 37;
+  }
+
+
