@@ -3,7 +3,7 @@
     <div class="banner">
       <img
         class="backgroundImg"
-        src="assets/img/banner.jpg"
+        src="@/assets/img/banner.jpg"
         alt="backgroundImg"
       />
       <div class="bannerText">
